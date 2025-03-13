@@ -1,10 +1,8 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int[] array = {-58000, -2, 0, 51, 4839, 77, -22};
+        int[] array = {58000, -2, 0, 51, 4839, 77, -22};
         int[] result = testMetod(array);
         System.out.println("Первое максимальное число: " + result[0]);
         System.out.println("Второе максимальное число: " + result[1]);
