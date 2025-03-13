@@ -21,12 +21,15 @@ public class Main {
 
         // Применим для перебора массива лаконичную конструкцию forEach
         for (int number : array) {
+
             // Если текущее число num больше, чем first, это означает, что мы нашли новое наибольшее число
             if (number > first) {
-                // Старое наибольшее число из first перемещаем в second, firstMax обновлям значением из number
+
+                // Старое наибольшее число из first перемещаем в second, first обновлям значением из number
                 second = first;
                 first = number;
             }
+
             // Если текущее число number не больше first, но больше second, это означает, что мы нашли новое второе наибольшее число
             else if (number > second) {
                 second = number;
